@@ -4,10 +4,23 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
-  <sprites name="sprites"/>
+  <sounds name="sound">
+    <sound>sound\Track1</sound>
+  </sounds>
+  <sprites name="sprites">
+    <sprite>sprites\Character</sprite>
+  </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\HitIsOnBeat.gml</script>
+  </scripts>
+  <objects name="objects">
+    <object>objects\player</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\DanceArea</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>

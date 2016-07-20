@@ -9,6 +9,7 @@
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\Character</sprite>
+    <sprite>sprites\sprite1</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -16,6 +17,7 @@
     <script>scripts\HitIsOnBeat.gml</script>
   </scripts>
   <objects name="objects">
+    <object>objects\music</object>
     <object>objects\player</object>
   </objects>
   <rooms name="rooms">

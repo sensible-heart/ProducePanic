@@ -53,6 +53,7 @@
   <instances>
     <instance objName="player" x="512" y="384" name="inst_35473B9D" locked="0" code="" scaleX="6.5" scaleY="6.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_produce" x="480" y="0" name="inst_66287D55" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="musicNote" x="512" y="160" name="inst_57DF7FEB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

@@ -54,7 +54,7 @@
             <string>var elapsed_time = current_time - global.first_beat;
 
 if (HitIsOnBeat(elapsed_time, global.track_1_bpms, 10)){
-    inst = instance_create(512,160, music);
+    inst = instance_create(512,160, musicNote);
 }
 </string>
           </argument>

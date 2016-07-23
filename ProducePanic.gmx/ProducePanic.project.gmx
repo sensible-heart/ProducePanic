@@ -9,6 +9,7 @@
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\Character</sprite>
+    <sprite>sprites\spr_produce</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -17,6 +18,7 @@
   </scripts>
   <objects name="objects">
     <object>objects\player</object>
+    <object>objects\obj_produce</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\DanceArea</room>

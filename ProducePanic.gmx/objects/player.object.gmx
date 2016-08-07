@@ -58,7 +58,7 @@ image_speed = 0.5;
             <string>var elapsed_time = current_time - global.first_beat;
 
 if (HitIsOnBeat(elapsed_time, global.track_1_bpms, global.beat_ms_forgiveness)){
-    if point_distance(x, y, obj_produce.x, obj_produce.y) &lt; 100
+    if point_distance(x, y, obj_produce.x, obj_produce.y) &gt; 5
     {
         player.image_blend = c_green;
     }

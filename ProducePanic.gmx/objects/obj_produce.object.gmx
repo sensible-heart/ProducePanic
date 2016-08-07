@@ -52,10 +52,10 @@
 var song_position = current_time - global.first_beat;
 var nearest_beat = round(song_position*global.track_1_bpms);
 
-var inst = instance_create(480, 0, obj_produceUp);
-if point_distance(x, y, obj_trapdoorUp.x, obj_trapdoorUp.y) &gt; 5
+var inst = instance_create(480, 0, obj_produce);
+if point_distance(x, y, player.x, player.y) &gt; 5
 {
-   move_towards_point(obj_trapdoorUp.x, obj_trapdoorUp.y, 5);
+   move_towards_point(player.x, player.y, 5);
 } else {
     with (inst){
         instance_destroy();
@@ -85,9 +85,9 @@ if point_distance(x, y, obj_trapdoorUp.x, obj_trapdoorUp.y) &gt; 5
           <argument>
             <kind>1</kind>
             <string>var inst = self;
-if point_distance(x, y, obj_trapdoorUp.x, obj_trapdoorUp.y) &gt; 5
+if point_distance(x, y, player.x, player.y) &gt; 5
 {
-   move_towards_point(obj_trapdoorUp.x, obj_trapdoorUp.y, 5);
+   move_towards_point(player.x, player.y, 5);
 } else {
     with (inst){
         instance_destroy();

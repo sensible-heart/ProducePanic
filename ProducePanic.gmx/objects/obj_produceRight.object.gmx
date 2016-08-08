@@ -52,7 +52,8 @@
 var song_position = current_time - global.first_beat;
 var nearest_beat = round(song_position*global.track_1_bpms);
 
-var inst = instance_create(480, 0, obj_produceRight);
+//var inst = instance_create(480, 0, obj_produceRight);
+var inst = self;
 if point_distance(x, y, obj_trapdoorRight.x, obj_trapdoorRight.y) &gt; 5
 {
    move_towards_point(obj_trapdoorRight.x, obj_trapdoorRight.y, 5);

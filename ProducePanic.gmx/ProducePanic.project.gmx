@@ -36,6 +36,7 @@
       <object>objects\obj_produceLeft</object>
       <object>objects\obj_produceRight</object>
       <object>objects\obj_produceUp</object>
+      <object>objects\obj_produceGenerator</object>
     </objects>
   </objects>
   <rooms name="rooms">

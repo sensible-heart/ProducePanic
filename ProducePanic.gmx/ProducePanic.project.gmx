@@ -20,6 +20,7 @@
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\HitIsOnBeat.gml</script>
+    <script>scripts\moveProduceTowardsTrapdoor.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\musicNote</object>

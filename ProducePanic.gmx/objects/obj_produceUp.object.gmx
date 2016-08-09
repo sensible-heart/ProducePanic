@@ -52,15 +52,6 @@
 var path = obj_trapdoorUp;
 
 moveProduceTowardsTrapdoor(inst, path);
-
-/*if point_distance(x, y, obj_trapdoorUp.x, obj_trapdoorUp.y) &gt; 5
-{
-   move_towards_point(obj_trapdoorUp.x, obj_trapdoorUp.y, 5);
-} else {
-    with (inst){
-        instance_destroy();
-    }
-}*/
 </string>
           </argument>
         </arguments>

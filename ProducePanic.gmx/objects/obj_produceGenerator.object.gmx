@@ -96,7 +96,7 @@ if (counterLeft &gt; 0)
 {
     counterLeft -= 1;
 } else {
-    instance_create(512, 0, obj_produceLeft);
+    instance_create(352, 0, obj_produceLeft);
     counterLeft = randomInterval;
 }
 

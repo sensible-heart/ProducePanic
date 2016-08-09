@@ -104,7 +104,7 @@ if (counterDown &gt; 0)
 {
     counterDown -= 1;
 } else {
-    instance_create(512, 0, obj_produceDown);
+    instance_create(416, 0, obj_produceDown);
     counterDown = randomInterval;
 }
 </string>

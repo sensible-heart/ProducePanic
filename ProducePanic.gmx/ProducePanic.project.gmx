@@ -21,6 +21,7 @@
   <scripts name="scripts">
     <script>scripts\HitIsOnBeat.gml</script>
     <script>scripts\moveProduceTowardsTrapdoor.gml</script>
+    <script>scripts\checkButtonPress.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\musicNote</object>

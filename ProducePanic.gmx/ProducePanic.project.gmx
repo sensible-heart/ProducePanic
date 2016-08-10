@@ -9,11 +9,17 @@
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\Character</sprite>
-    <sprite>sprites\spr_produce</sprite>
     <sprite>sprites\note</sprite>
     <sprites name="trapdoor">
       <sprite>sprites\spr_trapdoorOpen</sprite>
       <sprite>sprites\spr_trapdoorClosed</sprite>
+    </sprites>
+    <sprites name="Produce">
+      <sprite>sprites\spr_produce</sprite>
+      <sprites name="Carrot">
+        <sprite>sprites\spr_goodCarrot</sprite>
+        <sprite>sprites\spr_badCarrot</sprite>
+      </sprites>
     </sprites>
   </sprites>
   <backgrounds name="background"/>
@@ -39,6 +45,8 @@
       <object>objects\obj_produceRight</object>
       <object>objects\obj_produceUp</object>
       <object>objects\obj_produceGenerator</object>
+      <object>objects\obj_goodProduce</object>
+      <object>objects\obj_badProduce</object>
     </objects>
   </objects>
   <rooms name="rooms">

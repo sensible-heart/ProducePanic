@@ -48,10 +48,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>var inst = self;
-var path = obj_trapdoorLeft;
-
-moveProduceTowardsTrapdoor(inst, path);
+            <string>moveProduceTowardsTrapdoor(self, destinationTrapdoor);
 </string>
           </argument>
         </arguments>

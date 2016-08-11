@@ -59,20 +59,20 @@ var vDirection = choose(up,down);
 var hDirection = choose(left,right);
 var badProduce = obj_badProduce;
 
-if (numberOfProduce &lt; 2)
-{
     if (counterOne &lt; 0)
     {
         if (vDirection == up){
-            if (instance_exists(badProduce)){
-                badProduce.trapdoorDestination = obj_trapdoorUp;
+            var inst = instance_create(480, 0, obj_badProduce);
+            with(inst){
+                inst.destinationTrapdoor = obj_trapdoorUp;
             }
-            instance_create(480, 0, badProduce);
             counterOne = randomInterval;
             numberOfProduce++;
         } else {
-            badProduce.movementDirection = obj_trapdoorDown;
-            instance_create(416, 0, badProduce);
+            var inst = instance_create(416, 0, obj_badProduce);
+            with(inst){
+                inst.destinationTrapdoor = obj_trapdoorDown;
+            }
             counterDown = randomInterval;
             numberOfProduce++;
         }
@@ -80,12 +80,16 @@ if (numberOfProduce &lt; 2)
     if (counterTwo &lt; 0)
     {
         if (hDirection == left){
-            badProduce.movementDirection = obj_trapdoorLeft;
-            instance_create(352, 0, obj_badProduce);
+            var inst = instance_create(352, 0, obj_badProduce);
+            with(inst){
+                inst.destinationTrapdoor = obj_trapdoorLeft;
+            }
             counterTwo = randomInterval;
         } else {
-            badProduce.movementDirection = obj_trapdoorRight;
-            instance_create(544, 0, obj_badProduce);
+            var inst = instance_create(544, 0, obj_badProduce);
+            with(inst){
+                inst.destinationTrapdoor = obj_trapdoorRight;
+            }
             counterTwo = randomInterval;
         }
     } else {
@@ -124,7 +128,7 @@ if (numberOfProduce &lt; 2)
         instance_create(416, 0, obj_produceDown);
         counterDown = randomInterval;
     }*/
-}
+
 </string>
           </argument>
         </arguments>

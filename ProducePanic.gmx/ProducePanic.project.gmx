@@ -21,7 +21,6 @@
         <sprite>sprites\spr_badCarrot</sprite>
       </sprites>
     </sprites>
-    <sprite>sprites\sprite7</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>

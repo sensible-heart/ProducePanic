@@ -21,6 +21,7 @@
         <sprite>sprites\spr_badCarrot</sprite>
       </sprites>
     </sprites>
+    <sprite>sprites\sprite7</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -40,10 +41,6 @@
     </objects>
     <object>objects\obj_initialize</object>
     <objects name="Produce">
-      <object>objects\obj_produceDown</object>
-      <object>objects\obj_produceLeft</object>
-      <object>objects\obj_produceRight</object>
-      <object>objects\obj_produceUp</object>
       <object>objects\obj_produceGenerator</object>
       <object>objects\obj_goodProduce</object>
       <object>objects\obj_badProduce</object>

@@ -96,39 +96,6 @@ var badProduce = obj_badProduce;
         counterOne--;
         counterTwo--;
     }
-    /*
-    if (counterUp &gt; 0)
-    {
-        counterUp -= 1;
-    } else {
-        instance_create(480, 0, obj_produceUp);
-        counterUp = randomInterval;
-    }
-    
-    if (counterRight &gt; 0)
-    {
-        counterRight -= 1;
-    } else {
-        instance_create(544, 0, obj_produceRight);
-        counterRight = randomInterval;
-    }
-    
-    if (counterLeft &gt; 0)
-    {
-        counterLeft -= 1;
-    } else {
-        instance_create(352, 0, obj_produceLeft);
-        counterLeft = randomInterval;
-    }
-    
-    if (counterDown &gt; 0)
-    {
-        counterDown -= 1;
-    } else {
-        instance_create(416, 0, obj_produceDown);
-        counterDown = randomInterval;
-    }*/
-
 </string>
           </argument>
         </arguments>

@@ -57,7 +57,7 @@ image_speed = 0.5;
             <kind>1</kind>
             <string>var elapsed_time = current_time - global.first_beat;
 
-checkButtonPress(elapsed_time,obj_produceLeft, self);
+checkButtonPress(elapsed_time,obj_badProduce, self);
 </string>
           </argument>
         </arguments>

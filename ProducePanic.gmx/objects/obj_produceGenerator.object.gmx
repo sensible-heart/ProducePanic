@@ -57,40 +57,35 @@ left = "left";
             <string>var randomInterval = choose(60,90);
 var vDirection = choose(up,down);
 var hDirection = choose(left,right);
-var badProduce = obj_badProduce;
 
 if (counterOne &lt; 0)
 {
+    counterOne = randomInterval;
     if (vDirection == up){
         var inst = instance_create(480, 0, obj_badProduce);
         with(inst){
             inst.destinationTrapdoor = obj_trapdoorUp;
         }
-        counterOne = randomInterval;
-        numberOfProduce++;
     } else {
         var inst = instance_create(416, 0, obj_badProduce);
         with(inst){
             inst.destinationTrapdoor = obj_trapdoorDown;
         }
-        counterDown = randomInterval;
-        numberOfProduce++;
     }
 }
 if (counterTwo &lt; 0)
 {
+    counterTwo = randomInterval;
     if (hDirection == left){
         var inst = instance_create(352, 0, obj_badProduce);
         with(inst){
             inst.destinationTrapdoor = obj_trapdoorLeft;
         }
-        counterTwo = randomInterval;
     } else {
         var inst = instance_create(544, 0, obj_badProduce);
         with(inst){
             inst.destinationTrapdoor = obj_trapdoorRight;
         }
-        counterTwo = randomInterval;
     }
 } else {
     counterOne--;

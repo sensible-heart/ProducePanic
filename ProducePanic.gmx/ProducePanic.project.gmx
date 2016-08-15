@@ -13,6 +13,10 @@
     <sprites name="trapdoor">
       <sprite>sprites\spr_trapdoorOpen</sprite>
       <sprite>sprites\spr_trapdoorClosed</sprite>
+      <sprite>sprites\spr_Left</sprite>
+      <sprite>sprites\spr_Right</sprite>
+      <sprite>sprites\spr_Down</sprite>
+      <sprite>sprites\spr_Up</sprite>
     </sprites>
     <sprites name="Produce">
       <sprite>sprites\spr_produce</sprite>

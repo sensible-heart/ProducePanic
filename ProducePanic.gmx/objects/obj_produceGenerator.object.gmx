@@ -54,7 +54,7 @@ left = "left";
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>var randomInterval = choose(60,90);
+            <string>var randomInterval = choose(30,60,90);
 var vDirection = choose(up,down);
 var hDirection = choose(left,right);
 

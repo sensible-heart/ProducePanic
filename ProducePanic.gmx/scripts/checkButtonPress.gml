@@ -8,7 +8,14 @@ if (HitIsOnBeat(elapsed_time, global.track_1_bpms, global.beat_ms_forgiveness)){
     if (instance_exists(produce)){
         if point_distance(inst.x, inst.y, produce.x, produce.y) < 100
         {
-            //increase score multiplier
+            if (global.success_count != 0 && global.success_count mod global.multiplier_interval) == 0{
+                global.multiplier += 1;
+            }
+            score += 10*(global.multiplier+1);
+        }
+        else{
+            global.multiplier = 0;
+            global.success = 0;
         }
     }
 }

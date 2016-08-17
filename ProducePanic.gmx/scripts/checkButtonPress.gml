@@ -4,17 +4,19 @@ var inst = argument2;
 
 self.sprite_index = spr_trapdoorOpen;
 
-if (HitIsOnBeat(elapsed_time, global.track_1_bpms, global.beat_ms_forgiveness)){
+if (HitIsOnBeat(elapsed_time, global.track_1_bpms*2, global.beat_ms_forgiveness)){
     if (instance_exists(produce)){
-        if point_distance(inst.x, inst.y, produce.x, produce.y) < 100
+        if (point_distance(inst.x, inst.y, produce.x, produce.y) < 100)
         {
-            if (global.success_count != 0 && global.success_count mod global.multiplier_interval) == 0{
+            if (global.success_count != 0 && (global.success_count mod global.multiplier_interval) == 0){
                 global.multiplier += 1;
+                RedrawMultiplier();
             }
-            score += 10*(global.multiplier+1);
+            score += 10*(global.multiplier);
         }
         else{
-            global.multiplier = 0;
+            global.multiplier = 1;
+            RedrawMultiplier();
             global.success = 0;
         }
     }

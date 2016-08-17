@@ -32,10 +32,10 @@
     <script>scripts\HitIsOnBeat.gml</script>
     <script>scripts\moveProduceTowardsTrapdoor.gml</script>
     <script>scripts\checkButtonPress.gml</script>
+    <script>scripts\CreateBadProduce.gml</script>
+    <script>scripts\RedrawMultiplier.gml</script>
   </scripts>
   <objects name="objects">
-    <object>objects\musicNote</object>
-    <object>objects\player</object>
     <objects name="Trapdoors">
       <object>objects\obj_trapdoorLeft</object>
       <object>objects\obj_trapdoorDown</object>

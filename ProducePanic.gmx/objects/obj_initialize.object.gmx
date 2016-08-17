@@ -34,6 +34,7 @@ global.beat_ms_forgiveness = 175;
 global.first_beat = current_time + 1000;
 global.multiplier_interval = 3;
 global.success_count = 0;
+lives = 1;
 global.multiplier = 1;
 score = 0;
 </string>
@@ -62,7 +63,7 @@ score = 0;
           </argument>
           <argument>
             <kind>0</kind>
-            <string>416</string>
+            <string>704</string>
           </argument>
           <argument>
             <kind>1</kind>

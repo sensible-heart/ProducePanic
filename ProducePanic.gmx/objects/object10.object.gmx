@@ -25,79 +25,48 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>numberOfProduce = 0;
-counterOne = 60;
-counterTwo = 90;
-up = "up";
-down = "down";
-right = "right";
-left = "left";
+            <string>sg = audio_create_sync_group(false);
+audio_play_in_sync_group(sg, Track1);
+audio_start_sync_group(sg);
+var track_1_bpm = 60;
+global.track_1_bpms = track_1_bpm/60/1000;
+global.beat_ms_forgiveness = 175;
+global.first_beat = current_time + 1000;
+global.multiplier_interval = 3;
+global.success_count = 0;
+global.multiplier = 1;
+score = 0;
 </string>
           </argument>
         </arguments>
       </action>
     </event>
-    <event eventtype="3" enumb="0">
+    <event eventtype="8" enumb="0">
       <action>
         <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
+        <id>703</id>
+        <kind>0</kind>
+        <userelative>-1</userelative>
         <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
+        <useapplyto>0</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_draw_score</functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
+            <kind>0</kind>
+            <string>64</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>416</string>
+          </argument>
+          <argument>
             <kind>1</kind>
-            <string>var randomInterval = choose(60,90);
-var vDirection = choose(up,down);
-var hDirection = choose(left,right);
-var onBeatDirection = choose(up, down, left, right);
-
-var rightTrapdoorX = 544
-var upTrapdoorX = 480;
-var downTrapdoorX = 416;
-var leftTrapdoorX = 352;
-
-if (counterOne &lt; 0)
-{
-    counterOne = randomInterval;
-    if (vDirection == up){
-        var inst = instance_create(upTrapdoorX, 0, obj_badProduce);
-        with(inst){
-            inst.destinationTrapdoor = obj_trapdoorUp;
-        }
-    } else {
-        var inst = instance_create(downTrapdoorX, 0, obj_badProduce);
-        with(inst){
-            inst.destinationTrapdoor = obj_trapdoorDown;
-        }
-    }
-}
-if (counterTwo &lt; 0)
-{
-    counterTwo = randomInterval;
-    if (hDirection == left){
-        var inst = instance_create(leftTrapdoorX, 0, obj_badProduce);
-        with(inst){
-            inst.destinationTrapdoor = obj_trapdoorLeft;
-        }
-    } else {
-        var inst = instance_create(rightTrapdoorX, 0, obj_badProduce);
-        with(inst){
-            inst.destinationTrapdoor = obj_trapdoorRight;
-        }
-    }
-} else {
-    counterOne--;
-    counterTwo--;
-}
-</string>
+            <string>Score: </string>
           </argument>
         </arguments>
       </action>

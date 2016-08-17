@@ -33,7 +33,6 @@
     <script>scripts\moveProduceTowardsTrapdoor.gml</script>
     <script>scripts\checkButtonPress.gml</script>
     <script>scripts\CreateBadProduce.gml</script>
-    <script>scripts\RedrawMultiplier.gml</script>
   </scripts>
   <objects name="objects">
     <objects name="Trapdoors">

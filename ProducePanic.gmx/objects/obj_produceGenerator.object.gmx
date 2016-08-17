@@ -28,6 +28,7 @@
             <string>numberOfProduce = 0;
 counterOne = 60;
 counterTwo = 90;
+goodProduceCounter = 79;
 up = "up";
 down = "down";
 right = "right";
@@ -55,9 +56,9 @@ left = "left";
           <argument>
             <kind>1</kind>
             <string>var randomInterval = choose(60,90);
+var goodProduceInterval = choose(79, 107)
 var vDirection = choose(up,down);
 var hDirection = choose(left,right);
-var onBeatDirection = choose(up, down, left, right);
 
 var rightTrapdoorX = 544
 var upTrapdoorX = 480;
@@ -67,35 +68,21 @@ var leftTrapdoorX = 352;
 if (counterOne &lt; 0)
 {
     counterOne = randomInterval;
-    if (vDirection == up){
-        var inst = instance_create(upTrapdoorX, 0, obj_badProduce);
-        with(inst){
-            inst.destinationTrapdoor = obj_trapdoorUp;
-        }
-    } else {
-        var inst = instance_create(downTrapdoorX, 0, obj_badProduce);
-        with(inst){
-            inst.destinationTrapdoor = obj_trapdoorDown;
-        }
-    }
+    CreateProduce(vDirection, obj_badProduce);
 }
 if (counterTwo &lt; 0)
 {
     counterTwo = randomInterval;
-    if (hDirection == left){
-        var inst = instance_create(leftTrapdoorX, 0, obj_badProduce);
-        with(inst){
-            inst.destinationTrapdoor = obj_trapdoorLeft;
-        }
-    } else {
-        var inst = instance_create(rightTrapdoorX, 0, obj_badProduce);
-        with(inst){
-            inst.destinationTrapdoor = obj_trapdoorRight;
-        }
-    }
-} else {
+    CreateProduce(hDirection, obj_badProduce);
+} 
+if(goodProduceCounter &lt; 0){
+    goodProduceCounter = goodProduceInterval;
+    CreateProduce(choose(up, down, left, right), obj_goodProduce);
+}
+else {
     counterOne--;
     counterTwo--;
+    goodProduceCounter--;
 }
 </string>
           </argument>

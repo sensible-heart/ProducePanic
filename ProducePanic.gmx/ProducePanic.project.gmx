@@ -33,6 +33,7 @@
     <script>scripts\moveProduceTowardsTrapdoor.gml</script>
     <script>scripts\checkButtonPress.gml</script>
     <script>scripts\CreateProduce.gml</script>
+    <script>scripts\ResetMultiplierAndReduceScore.gml</script>
   </scripts>
   <objects name="objects">
     <objects name="Trapdoors">

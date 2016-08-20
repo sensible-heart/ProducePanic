@@ -74,6 +74,11 @@
     <sprites name="Truck">
       <sprite>sprites\spr_truckHappy</sprite>
     </sprites>
+    <sprites name="Fruit Piles">
+      <sprite>sprites\spr_BadPile</sprite>
+      <sprite>sprites\spr_GoodPile</sprite>
+      <sprite>sprites\spr_GoodBadPile</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_Orchard</background>

@@ -17,6 +17,10 @@
       <sprite>sprites\spr_Right</sprite>
       <sprite>sprites\spr_Down</sprite>
       <sprite>sprites\spr_Up</sprite>
+      <sprite>sprites\spr_trapDoorLeft</sprite>
+      <sprite>sprites\spr_trapDoorDown</sprite>
+      <sprite>sprites\spr_trapDoorRight</sprite>
+      <sprite>sprites\spr_trapDoorUp</sprite>
     </sprites>
     <sprites name="Produce">
       <sprite>sprites\spr_produce</sprite>
@@ -50,10 +54,30 @@
       </sprites>
       <sprites name="RedPepper">
         <sprite>sprites\spr_goodRedPepper</sprite>
+        <sprite>sprites\spr_badRedPepper</sprite>
+      </sprites>
+      <sprites name="Mushroom">
+        <sprite>sprites\spr_goodMushroom</sprite>
+        <sprite>sprites\spr_badMushroom</sprite>
+      </sprites>
+      <sprites name="Pear">
+        <sprite>sprites\spr_goodPear</sprite>
+        <sprite>sprites\spr_badPear</sprite>
       </sprites>
     </sprites>
+    <sprites name="Conveyor Belts">
+      <sprite>sprites\spr_conveyorLeft</sprite>
+      <sprite>sprites\spr_conveyorDown</sprite>
+      <sprite>sprites\spr_conveyorRight</sprite>
+      <sprite>sprites\spr_conveyorUp</sprite>
+    </sprites>
+    <sprites name="Truck">
+      <sprite>sprites\spr_truckHappy</sprite>
+    </sprites>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\bg_Orchard</background>
+  </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\HitIsOnBeat.gml</script>

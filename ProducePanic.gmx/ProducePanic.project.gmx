@@ -24,6 +24,33 @@
         <sprite>sprites\spr_goodCarrot</sprite>
         <sprite>sprites\spr_badCarrot</sprite>
       </sprites>
+      <sprites name="Apple">
+        <sprite>sprites\spr_goodApple</sprite>
+        <sprite>sprites\spr_badApple</sprite>
+      </sprites>
+      <sprites name="Broccoli">
+        <sprite>sprites\spr_goodBroccoli</sprite>
+        <sprite>sprites\spr_badBroccoli</sprite>
+      </sprites>
+      <sprites name="Eggplant">
+        <sprite>sprites\spr_goodEggplant</sprite>
+        <sprite>sprites\spr_badEggplant</sprite>
+      </sprites>
+      <sprites name="Banana">
+        <sprite>sprites\spr_goodBanana</sprite>
+        <sprite>sprites\spr_badBanana</sprite>
+      </sprites>
+      <sprites name="Orange">
+        <sprite>sprites\spr_goodOrange</sprite>
+        <sprite>sprites\spr_badOrange</sprite>
+      </sprites>
+      <sprites name="Strawberry">
+        <sprite>sprites\spr_goodStrawberry</sprite>
+        <sprite>sprites\spr_badStrawberry</sprite>
+      </sprites>
+      <sprites name="RedPepper">
+        <sprite>sprites\spr_goodRedPepper</sprite>
+      </sprites>
     </sprites>
   </sprites>
   <backgrounds name="background"/>

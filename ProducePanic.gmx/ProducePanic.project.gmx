@@ -34,6 +34,8 @@
     <script>scripts\checkButtonPress.gml</script>
     <script>scripts\CreateProduce.gml</script>
     <script>scripts\ResetMultiplierAndReduceScore.gml</script>
+    <script>scripts\SetFace.gml</script>
+    <script>scripts\IncreasePileSize.gml</script>
   </scripts>
   <objects name="objects">
     <objects name="Trapdoors">
@@ -51,7 +53,13 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\DanceArea</room>
+    <room>rooms\rm_successScreen</room>
+    <room>rooms\rm_failScreen</room>
   </rooms>
+  <constants number="2">
+    <constant name="Sad">"Sad"</constant>
+    <constant name="Happy">"Happy"</constant>
+  </constants>
   <help>
     <rtf>help.rtf</rtf>
   </help>

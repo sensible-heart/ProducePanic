@@ -1,4 +1,4 @@
-var destinationTrapdoor = argument0;
+var startingConveyor = argument0;
 var produceType = argument1;
 
 var rightTrapdoorX = 1024;
@@ -10,27 +10,27 @@ var downTrapdoorY = -32;
 var leftTrapdoorX = -32;
 var leftTrapdoorY = 225;
 
-if (destinationTrapdoor == up){
+if (startingConveyor == up){
     var inst = instance_create(upTrapdoorX, upTrapdoorY, produceType);
     with(inst){
-        inst.destinationTrapdoor = obj_trapdoorUp;
+        inst.destination = obj_producePile;
     }
 }
-else if (destinationTrapdoor == down){
+else if (startingConveyor == down){
     var inst = instance_create(downTrapdoorX, downTrapdoorY, produceType);
     with(inst){
-        inst.destinationTrapdoor = obj_trapdoorDown;
+        inst.destination = obj_producePile;
     }
 }
-else if (destinationTrapdoor == left){
+else if (startingConveyor == left){
     var inst = instance_create(leftTrapdoorX, leftTrapdoorY, produceType);
     with(inst){
-        inst.destinationTrapdoor = obj_trapdoorLeft;
+        inst.destination = obj_producePile;
     }
 }
 else{
     var inst = instance_create(rightTrapdoorX, rightTrapdoorY, produceType);
     with(inst){
-        inst.destinationTrapdoor = obj_trapdoorRight;
+        inst.destination = obj_producePile;
     }
 }

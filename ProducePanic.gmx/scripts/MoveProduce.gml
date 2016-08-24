@@ -9,7 +9,4 @@ if point_distance(inst.x, inst.y, producePath.x, producePath.y) > 5
     if(object_get_name(inst.object_index) == "obj_badProduce"){
         ResetMultiplierAndReduceScore();
     }
-    with (inst){
-        instance_destroy();
-    }
 }

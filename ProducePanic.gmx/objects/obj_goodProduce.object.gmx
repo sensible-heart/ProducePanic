@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>var destinationTrapdoor;
+            <string>var destination;
 sprite_index = choose(spr_goodApple, spr_goodBroccoli, spr_goodEggplant, spr_goodBanana, spr_goodOrange, spr_goodStrawberry, spr_goodRedPepper, spr_goodMushroom, spr_goodPear);
 </string>
           </argument>
@@ -49,7 +49,7 @@ sprite_index = choose(spr_goodApple, spr_goodBroccoli, spr_goodEggplant, spr_goo
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>MoveProduce(self, destinationTrapdoor, 5);
+            <string>MoveProduce(self, destination, 5);
 </string>
           </argument>
         </arguments>

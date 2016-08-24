@@ -27,6 +27,7 @@
             <kind>1</kind>
             <string>global.badProduceInTruckCount += 1;
 SetFace(Sad);
+IncreasePileSize();
 with (other){
     instance_destroy();
 }
@@ -54,6 +55,7 @@ with (other){
             <kind>1</kind>
             <string>global.goodProduceInTruckCount +=1;
 SetFace(Happy);
+IncreasePileSize();
 with (other){
     instance_destroy();
 }

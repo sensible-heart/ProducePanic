@@ -6,9 +6,7 @@ self.sprite_index = spr_trapdoorOpen;
 
 if (HitIsOnBeat(elapsed_time, global.track_1_bpms*2, global.beat_ms_forgiveness)){
     if (instance_exists(produce)){
-        IncreasePileSize();
-        if (point_distance(inst.x, inst.y, produce.x, produce.y) < 100
-        && object_get_name(produce) == "obj_badProduce")
+        if (point_distance(inst.x, inst.y, produce.x, produce.y) < 100)
         {
             global.success_count += 1;
             if (global.success_count mod global.multiplier_interval == 0){

@@ -106,6 +106,15 @@
       <object>objects\obj_goodProduce</object>
       <object>objects\obj_badProduce</object>
     </objects>
+    <objects name="Conveyors">
+      <object>objects\obj_conveyorRight</object>
+      <object>objects\obj_conveyorUp</object>
+      <object>objects\obj_conveyorDown</object>
+      <object>objects\obj_conveyorLeft</object>
+    </objects>
+    <objects name="TruckStuff">
+      <object>objects\Truck</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\DanceArea</room>

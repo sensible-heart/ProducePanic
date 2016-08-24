@@ -18,11 +18,9 @@ if (HitIsOnBeat(elapsed_time, global.track_1_bpms*2, global.beat_ms_forgiveness)
             with (instance_place(inst.x, inst.y, produce)){
                 instance_destroy();
             }
-            SetFace(Happy);
         }
         else{
             ResetMultiplierAndReduceScore();
-            SetFace(Sad);
         }
     }
 }

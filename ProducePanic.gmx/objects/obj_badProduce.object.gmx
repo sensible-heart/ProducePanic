@@ -26,8 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>var destinationTrapdoor;
-var sprite = choose(spr_badApple, spr_badBroccoli, spr_badEggplant, spr_badBanana, spr_badOrange, spr_badStrawberry, spr_badRedPepper, spr_badMushroom, spr_badPear);
-sprite_index = sprite;
+sprite_index = choose(spr_badApple, spr_badBroccoli, spr_badEggplant, spr_badBanana, spr_badOrange, spr_badStrawberry, spr_badRedPepper, spr_badMushroom, spr_badPear);
 </string>
           </argument>
         </arguments>

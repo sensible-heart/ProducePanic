@@ -60,11 +60,6 @@ var goodProduceInterval = choose(79, 107)
 var vDirection = choose(up,down);
 var hDirection = choose(left,right);
 
-var rightTrapdoorX = 544
-var upTrapdoorX = 480;
-var downTrapdoorX = 416;
-var leftTrapdoorX = 352;
-
 if (counterOne &lt; 0)
 {
     counterOne = randomInterval;

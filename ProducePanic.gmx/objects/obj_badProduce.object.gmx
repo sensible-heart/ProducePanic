@@ -49,7 +49,7 @@ sprite_index = choose(spr_badApple, spr_badBroccoli, spr_badEggplant, spr_badBan
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>moveProduceTowardsTrapdoor(self, destinationTrapdoor, 5);
+            <string>MoveProduce(self, destinationTrapdoor, 5);
 </string>
           </argument>
         </arguments>

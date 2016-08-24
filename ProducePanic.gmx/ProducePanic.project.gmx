@@ -74,10 +74,11 @@
     <sprites name="Truck">
       <sprite>sprites\spr_truckHappy</sprite>
     </sprites>
-    <sprites name="Fruit Piles">
+    <sprites name="Produce Piles">
       <sprite>sprites\spr_BadPile</sprite>
       <sprite>sprites\spr_GoodPile</sprite>
       <sprite>sprites\spr_GoodBadPile</sprite>
+      <sprite>sprites\spr_piles</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -86,7 +87,7 @@
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\HitIsOnBeat.gml</script>
-    <script>scripts\moveProduceTowardsTrapdoor.gml</script>
+    <script>scripts\MoveProduce.gml</script>
     <script>scripts\checkButtonPress.gml</script>
     <script>scripts\CreateProduce.gml</script>
     <script>scripts\ResetMultiplierAndReduceScore.gml</script>
@@ -113,7 +114,8 @@
       <object>objects\obj_conveyorLeft</object>
     </objects>
     <objects name="TruckStuff">
-      <object>objects\Truck</object>
+      <object>objects\obj_truck</object>
+      <object>objects\obj_producePile</object>
     </objects>
   </objects>
   <rooms name="rooms">

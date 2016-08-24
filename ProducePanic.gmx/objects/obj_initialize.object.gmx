@@ -38,6 +38,8 @@ global.success_count = 0;
 global.multiplier = 1;
 score = 0;
 winScore = 100;
+global.goodProduceInTruckCount = 0;
+global.badProduceInTruckCount = 0;
 </string>
           </argument>
         </arguments>

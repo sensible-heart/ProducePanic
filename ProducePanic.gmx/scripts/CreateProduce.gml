@@ -2,7 +2,7 @@ var startingConveyor = argument0;
 var produceType = argument1;
 
 var rightTrapdoorX = 1024;
-var rightTrapdoorY = 256;
+var rightTrapdoorY = 240;
 var upTrapdoorX = 672;
 var upTrapdoorY = -32;
 var downTrapdoorX = 256;

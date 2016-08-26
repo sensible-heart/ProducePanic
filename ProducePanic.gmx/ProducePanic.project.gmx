@@ -93,6 +93,7 @@
     <script>scripts\ResetMultiplierAndReduceScore.gml</script>
     <script>scripts\SetFace.gml</script>
     <script>scripts\IncreasePileSize.gml</script>
+    <script>scripts\GetClosestProduce.gml</script>
   </scripts>
   <objects name="objects">
     <objects name="Trapdoors">

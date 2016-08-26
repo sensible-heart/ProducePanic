@@ -40,6 +40,8 @@ score = 0;
 winScore = 100;
 global.goodProduceInTruckCount = 0;
 global.badProduceInTruckCount = 0;
+global.goodProduceInTrapdoorCount = 0;
+global.badProduceInTrapdoorCount = 0;
 </string>
           </argument>
         </arguments>

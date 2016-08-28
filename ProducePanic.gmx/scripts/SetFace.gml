@@ -1,8 +1,8 @@
-var faceEmote = argument0
+var faceEmote = argument0;
 
 if (faceEmote == Happy){
-    //set the face to be happy
+    obj_truck.sprite_index = spr_truckHappy;
 }
 if (faceEmote == Sad){
-    //set the face to be sad
+    obj_truck.sprite_index = spr_truckSad;
 }

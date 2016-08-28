@@ -20,6 +20,6 @@
   <width>307</width>
   <height>180</height>
   <frames>
-    <frame index="0">images\spr_GoodPile_0.png</frame>
+    <frame index="0">images\spr_goodPile_0.png</frame>
   </frames>
 </sprite>

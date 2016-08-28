@@ -76,9 +76,9 @@
       <sprite>sprites\spr_truckSad</sprite>
     </sprites>
     <sprites name="Produce Piles">
-      <sprite>sprites\spr_BadPile</sprite>
-      <sprite>sprites\spr_GoodPile</sprite>
-      <sprite>sprites\spr_GoodBadPile</sprite>
+      <sprite>sprites\spr_badPile</sprite>
+      <sprite>sprites\spr_goodPile</sprite>
+      <sprite>sprites\spr_goodBadPile</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">

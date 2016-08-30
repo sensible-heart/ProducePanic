@@ -118,6 +118,7 @@
       <object>objects\obj_truck</object>
       <object>objects\obj_producePile</object>
     </objects>
+    <object>objects\obj_fail</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\DanceArea</room>

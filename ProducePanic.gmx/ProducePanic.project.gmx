@@ -119,6 +119,7 @@
       <object>objects\obj_producePile</object>
     </objects>
     <object>objects\obj_fail</object>
+    <object>objects\obj_win</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\DanceArea</room>

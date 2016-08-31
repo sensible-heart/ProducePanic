@@ -10,7 +10,7 @@ if (produceId != noone &&
         var name = object_get_name(object_index);
         if(name == "obj_badProduce"){
             global.success_count += 1;
-            if (global.success_count mod global.multiplier_interval == 0){
+            if (global.success_count mod global.multiplier_interval == 0 && global.multiplier <= 9){
                 global.multiplier += 1;
             }
             global.badProduceInTrapdoorCount += 1;

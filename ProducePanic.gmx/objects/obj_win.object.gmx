@@ -8,7 +8,7 @@
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
-    <event eventtype="0" enumb="0">
+    <event eventtype="8" enumb="0">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -25,60 +25,13 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>numberOfProduce = 0;
-counterOne = 60;
-counterTwo = 90;
-goodProduceCounter = 79;
-up = "up";
-down = "down";
-right = "right";
-left = "left";
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="3" enumb="0">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>var randomInterval = choose(120,180);
-var goodProduceInterval = choose(17,37)
-var vDirection = choose(up,down);
-var hDirection = choose(left,right);
+            <string>draw_text(500, 704, "Score "+string(score));
+draw_text(500, 400, "BadProduceTruck "+string(global.goodProduceInTruckCount));
+draw_text(500, 600, "BadProduceTruck "+string(global.badProduceInTruckCount));
+draw_text(500, 300, "goodintrapdoor "+string(global.goodProduceInTrapdoorCount));
+draw_text(500, 500, "badintrapdoor "+string(global.badProduceInTrapdoorCount));
 
-if (counterOne &lt; 0)
-{
-    counterOne = randomInterval;
-    CreateProduce(vDirection, obj_badProduce);
-}
-if (counterTwo &lt; 0)
-{
-    counterTwo = randomInterval;
-    CreateProduce(hDirection, obj_badProduce);
-} 
-if(goodProduceCounter &lt; 0){
-    goodProduceCounter = goodProduceInterval;
-    CreateProduce(choose(up, down, left, right), obj_goodProduce);
-}
-else {
-    counterOne--;
-    counterTwo--;
-    goodProduceCounter--;
-}
+
 </string>
           </argument>
         </arguments>

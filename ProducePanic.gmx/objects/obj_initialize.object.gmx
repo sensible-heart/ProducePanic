@@ -47,6 +47,30 @@ global.badProduceInTrapdoorCount = 0;
           </argument>
         </arguments>
       </action>
+      <action>
+        <libid>1</libid>
+        <id>526</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_font</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>12</kind>
+            <font>ft_exSmallFont</font>
+          </argument>
+          <argument>
+            <kind>4</kind>
+            <string>0</string>
+          </argument>
+        </arguments>
+      </action>
     </event>
     <event eventtype="3" enumb="0">
       <action>
@@ -106,34 +130,6 @@ if (trackPosition &gt;= track_1_length){
     <event eventtype="8" enumb="0">
       <action>
         <libid>1</libid>
-        <id>703</id>
-        <kind>0</kind>
-        <userelative>-1</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>0</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_draw_score</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>0</kind>
-            <string>64</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>704</string>
-          </argument>
-          <argument>
-            <kind>1</kind>
-            <string>Score: </string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
         <id>603</id>
         <kind>7</kind>
         <userelative>0</userelative>
@@ -148,7 +144,8 @@ if (trackPosition &gt;= track_1_length){
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_text(896, 704, "Multiplier: "+string(global.multiplier));
+            <string>draw_text_colour(800, 704, "Multiplier: "+string(global.multiplier), c_white, c_white, c_white, c_white, 1);
+draw_text_colour(64, 704, "Score: "+string(score), c_white, c_white, c_white, c_white, 1);
 </string>
           </argument>
         </arguments>

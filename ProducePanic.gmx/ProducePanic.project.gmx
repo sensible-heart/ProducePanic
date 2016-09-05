@@ -83,6 +83,7 @@
   </sprites>
   <backgrounds name="background">
     <background>background\bg_Orchard</background>
+    <background>background\bg_title</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -120,9 +121,11 @@
     </objects>
     <object>objects\obj_fail</object>
     <object>objects\obj_win</object>
+    <object>objects\obj_title</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\DanceArea</room>
+    <room>rooms\rm_titleMenu</room>
+    <room>rooms\rm_danceArea</room>
     <room>rooms\rm_successScreen</room>
     <room>rooms\rm_failScreen</room>
   </rooms>

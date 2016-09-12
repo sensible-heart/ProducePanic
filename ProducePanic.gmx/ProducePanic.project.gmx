@@ -19,6 +19,10 @@
       <sprite>sprites\spr_trapDoorLeft</sprite>
       <sprite>sprites\spr_trapDoorDown</sprite>
       <sprite>sprites\spr_trapDoorRight</sprite>
+      <sprite>sprites\spr_trapDoorUpNEW</sprite>
+      <sprite>sprites\spr_trapDoorRightNEW</sprite>
+      <sprite>sprites\spr_trapDoorDownNEW</sprite>
+      <sprite>sprites\spr_trapDoorLeftNEW</sprite>
       <sprite>sprites\spr_trapDoorUp</sprite>
     </sprites>
     <sprites name="Produce">

@@ -7,18 +7,18 @@
   <coltolerance>0</coltolerance>
   <sepmasks>0</sepmasks>
   <bboxmode>0</bboxmode>
-  <bbox_left>414</bbox_left>
-  <bbox_right>1006</bbox_right>
-  <bbox_top>360</bbox_top>
-  <bbox_bottom>893</bbox_bottom>
+  <bbox_left>166</bbox_left>
+  <bbox_right>370</bbox_right>
+  <bbox_top>167</bbox_top>
+  <bbox_bottom>349</bbox_bottom>
   <HTile>0</HTile>
   <VTile>0</VTile>
   <TextureGroups>
     <TextureGroup0>0</TextureGroup0>
   </TextureGroups>
   <For3D>0</For3D>
-  <width>1048</width>
-  <height>1022</height>
+  <width>400</width>
+  <height>400</height>
   <frames>
     <frame index="0">images\spr_trapDoorLeftNEW_0.png</frame>
     <frame index="1">images\spr_trapDoorLeftNEW_1.png</frame>

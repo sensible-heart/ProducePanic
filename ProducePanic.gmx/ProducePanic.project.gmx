@@ -88,6 +88,7 @@
       <sprite>sprites\spr_textBox</sprite>
       <sprite>sprites\spr_conveyortTut</sprite>
     </sprites>
+    <sprite>sprites\spr_white_background</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_Orchard</background>
@@ -143,6 +144,7 @@
       <object>objects\obj_tutGoodFruit</object>
       <object>objects\obj_tutBadFruit</object>
     </objects>
+    <object>objects\obj_white_box</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_tutorial</room>

@@ -144,8 +144,8 @@ if (trackPosition &gt;= track_1_length){
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_text_colour(800, 704, "Multiplier: "+string(global.multiplier), c_white, c_white, c_white, c_white, 1);
-draw_text_colour(64, 704, "Score: "+string(score), c_white, c_white, c_white, c_white, 1);
+            <string>draw_text_colour(800, 688, "Multiplier: "+string(global.multiplier), c_black, c_black, c_black, c_black, 1);
+draw_text_colour(32, 688, "Score: "+string(score), c_black, c_black, c_black, c_black, 1);
 </string>
           </argument>
         </arguments>

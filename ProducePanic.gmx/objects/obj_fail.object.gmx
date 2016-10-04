@@ -87,9 +87,11 @@
           <argument>
             <kind>1</kind>
             <string>draw_text_colour(room_width/2, 96, "RESULTS:", c_white, c_white, c_white, c_white, 1);
-var failure = "FAILURE";
-draw_text_transformed_colour(room_width/2, 250, failure, 0.8, 0.8, 0,c_white, c_white, c_white, c_white, 1);
-
+var failureTextHeight = 250;
+draw_text_transformed_colour(room_width/2, failureTextHeight, "FAILURE", 0.8, 0.8, 0,c_white, c_white, c_white, c_white, 1);
+var youCostTextHeight = failureTextHeight + 140;
+draw_text_transformed_colour(room_width/2, youCostTextHeight, "You cost the farm", 0.55, 0.55, 0,c_white, c_white, c_white, c_white, 1);
+draw_text_transformed_colour(room_width/2, youCostTextHeight+64, "$" + GetWastedCost(), 0.65, 0.65, 0,c_white, c_white, c_white, c_white, 1);
 </string>
           </argument>
         </arguments>

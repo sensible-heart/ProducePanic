@@ -89,9 +89,11 @@
       <sprite>sprites\spr_conveyortTut</sprite>
     </sprites>
     <sprite>sprites\spr_white_background</sprite>
+    <sprite>sprites\spr_pressAnyKey</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_Orchard</background>
+    <background>background\bg_titleMenu</background>
     <background>background\bg_title</background>
   </backgrounds>
   <paths name="paths"/>
@@ -147,6 +149,7 @@
       <object>objects\obj_white_box</object>
       <object>objects\obj_title</object>
       <object>objects\obj_win</object>
+      <object>objects\obj_pressNext</object>
     </objects>
   </objects>
   <rooms name="rooms">

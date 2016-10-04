@@ -150,8 +150,8 @@
     </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_tutorial</room>
     <room>rooms\rm_titleMenu</room>
+    <room>rooms\rm_tutorial</room>
     <room>rooms\rm_danceArea</room>
     <room>rooms\rm_successScreen</room>
     <room>rooms\rm_failScreen</room>

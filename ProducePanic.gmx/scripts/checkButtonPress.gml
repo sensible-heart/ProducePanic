@@ -1,7 +1,7 @@
 var elapsed_time = argument0;
 var trapdoorInstance = argument1;
 
-self.sprite_index = spr_trapdoorOpen;
+image_index = 1;
 var produceId = GetClosestProduce(trapdoorInstance);
 if (produceId != noone && 
     point_distance(trapdoorInstance.x, trapdoorInstance.y, produceId.x, produceId.y) < 100)

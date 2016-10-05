@@ -51,11 +51,11 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="obj_trapdoorUp" x="465" y="-59" name="inst_3184A3FE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_trapdoorUp" x="626" y="169" name="inst_3184A3FE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_initialize" x="0" y="0" name="inst_A43DE9B9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_trapdoorRight" x="657" y="99" name="inst_11E17091" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_trapdoorRight" x="788" y="351" name="inst_11E17091" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_produceGenerator" x="0" y="32" name="inst_19C0C58E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_trapdoorDown" x="231" y="222" name="inst_7F4F1D65" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_trapdoorDown" x="336" y="166" name="inst_7F4F1D65" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_conveyorRight" x="864" y="320" name="inst_BBDD2A50" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_conveyorUp" x="672" y="160" name="inst_167FF0EB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_conveyorDown" x="320" y="128" name="inst_83BF653B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -64,7 +64,7 @@
     <instance objName="obj_producePile" x="512" y="544" name="inst_19EE23D4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_white_box" x="0" y="672" name="inst_02E755F2" locked="0" code="" scaleX="1.28699553012848" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_white_box" x="768" y="672" name="inst_F7490C29" locked="0" code="" scaleX="1.14285719394684" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_trapdoorLeft" x="-46" y="100" name="inst_A51572A5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_trapdoorLeft" x="243" y="370" name="inst_A51572A5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

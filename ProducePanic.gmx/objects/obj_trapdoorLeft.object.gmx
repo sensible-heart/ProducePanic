@@ -58,9 +58,6 @@ image_speed = 0;
             <string>var elapsed_time = current_time - global.first_beat;
 
 checkButtonPress(elapsed_time, self);
-
-//set subimage to open
-image_index = 1;
 </string>
           </argument>
         </arguments>

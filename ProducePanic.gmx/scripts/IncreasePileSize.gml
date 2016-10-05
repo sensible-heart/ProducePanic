@@ -1,7 +1,7 @@
 //Move the pile up and check good vs bad fruit
 var goodProduceRatio = global.goodProduceInTruckCount/(global.badProduceInTruckCount + global.goodProduceInTruckCount);
 var originalX = obj_producePile.x;
-var newY = obj_producePile.y - 2;
+var newY = obj_producePile.y - 1;
 var maxPileHeight = 384;
 if (newY <= maxPileHeight){
     newY = maxPileHeight;

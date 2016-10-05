@@ -87,9 +87,11 @@
           <argument>
             <kind>1</kind>
             <string>draw_text_colour(room_width/2, 96, "RESULTS:", c_white, c_white, c_white, c_white, 1);
-var foodWastedTextHeight = 250;
-draw_text_transformed_colour(room_width/2, foodWastedTextHeight, "Food Wasted", 0.8, 0.8, 0,c_white, c_white, c_white, c_white, 1);
-var youCostTextHeight = foodWastedTextHeight + 140;
+var firstElementHeight = 250;
+draw_text_transformed_colour(room_width/2, firstElementHeight, "Score: " + string(score), 0.8, 0.8, 0,c_white, c_white, c_white, c_white, 1);
+var secondElementHeight = firstElementHeight + 140
+draw_text_transformed_colour(room_width/2, secondElementHeight, "Food Wasted", 0.8, 0.8, 0,c_white, c_white, c_white, c_white, 1);
+var youCostTextHeight = secondElementHeight + 140;
 draw_text_transformed_colour(room_width/2, youCostTextHeight, "$" + GetWastedCost(), 0.65, 0.65, 0,c_white, c_white, c_white, c_white, 1);
 
 

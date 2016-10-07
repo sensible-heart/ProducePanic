@@ -17,7 +17,7 @@ if (produceId != noone &&
         }
         else{
             global.goodProduceInTrapdoorCount += 1;
-            ResetMultiplierAndReduceScore();
+            ResetMultiplierAndReduceScore(elapsed_time);
         }
     }
     with (instance_place(trapdoorInstance.x, trapdoorInstance.y, produceId)){
@@ -25,5 +25,5 @@ if (produceId != noone &&
     }
 }
 else{
-    ResetMultiplierAndReduceScore();
+    ResetMultiplierAndReduceScore(elapsed_time);
 }

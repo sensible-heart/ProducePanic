@@ -106,6 +106,7 @@
     <script>scripts\SetFace.gml</script>
     <script>scripts\IncreasePileSize.gml</script>
     <script>scripts\GetClosestProduce.gml</script>
+    <script>scripts\GetFarmCost.gml</script>
     <script>scripts\GetWastedCost.gml</script>
   </scripts>
   <fonts name="fonts">

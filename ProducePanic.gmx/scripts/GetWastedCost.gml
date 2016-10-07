@@ -1,1 +1,1 @@
-return string((global.badProduceInTruckCount + global.goodProduceInTrapdoorCount)*global.perProduceValue)
+return (global.goodProduceInTrapdoorCount + global.badProduceInTrapdoorCount)* global.perProduceValue

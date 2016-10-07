@@ -134,7 +134,7 @@ alarm[4] = 90;
 with (obj_tutBadFruit) instance_destroy();
 
 //change text
-tutorialText = ("#Use the arrows to activate the trapdoors"+"#so the bad produce doesn't end up"+"#in your truck!");
+tutorialText = ("#Use the arrows to activate the trapdoors"+"#so the ugly produce doesn't end up"+"#in your truck!");
 
 //create conveyor belt obj
 instance_create(room_width/2,room_height/2,obj_tutConveyor);
@@ -169,7 +169,7 @@ with (obj_tutGoodFruit)
         instance_change(obj_tutBadFruit,true);
     }
 //draw new text
-tutorialText = ("This is bad fruit."+"#The Supermarket doesn't want them.");
+tutorialText = ("This is ugly fruit."+"#The Supermarket doesn't want them.");
 
 //set next alarm
 alarm[2] = 150;
@@ -232,22 +232,6 @@ draw_text(room_width/2,room_height/2, tutorialText);
 </string>
           </argument>
         </arguments>
-      </action>
-    </event>
-    <event eventtype="9" enumb="1">
-      <action>
-        <libid>1</libid>
-        <id>222</id>
-        <kind>0</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>0</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_next_room</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
       </action>
     </event>
   </events>

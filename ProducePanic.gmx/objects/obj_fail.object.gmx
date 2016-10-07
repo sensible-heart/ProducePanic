@@ -50,7 +50,30 @@
           <argument>
             <kind>1</kind>
             <string>depth = -10;
+alarm[0] = 5*60;
 </string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>224</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_another_room</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>11</kind>
+            <room>rm_titleMenu</room>
           </argument>
         </arguments>
       </action>
@@ -90,31 +113,9 @@
 var failureTextHeight = 250;
 draw_text_transformed_colour(room_width/2, failureTextHeight, "FAILURE", 0.8, 0.8, 0,c_white, c_white, c_white, c_white, 1);
 var youCostTextHeight = failureTextHeight + 140;
-draw_text_transformed_colour(room_width/2, youCostTextHeight, "You cost the farm", 0.55, 0.55, 0,c_white, c_white, c_white, c_white, 1);
-draw_text_transformed_colour(room_width/2, youCostTextHeight+64, "$" + GetWastedCost(), 0.65, 0.65, 0,c_white, c_white, c_white, c_white, 1);
+draw_text_transformed_colour(room_width/2, youCostTextHeight, "Your sorting over a year cost the farm:", 0.55, 0.55, 0,c_white, c_white, c_white, c_white, 1);
+draw_text_transformed_colour(room_width/2, youCostTextHeight+64, "$" + GetFarmCost(), 0.65, 0.65, 0,c_white, c_white, c_white, c_white, 1);
 </string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="9" enumb="1">
-      <action>
-        <libid>1</libid>
-        <id>224</id>
-        <kind>0</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>0</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_another_room</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>11</kind>
-            <room>rm_titleMenu</room>
           </argument>
         </arguments>
       </action>
